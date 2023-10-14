@@ -1,6 +1,6 @@
 # unraidWOLcmd
 
-This repository has a few component to allow commands to be run on an unraid host, triggered by sending a Wake On Lan packet.  I've also added a couple of helper scripts that I use with this.
+This repository has a few components to allow commands to be run on an unRaid host, triggered by sending a Wake On Lan packet.  I've also added a couple of helper scripts that I use with this.
 
 ### Docker Container
 
