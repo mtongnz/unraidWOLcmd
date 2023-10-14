@@ -1,0 +1,6 @@
+wol_port: 9
+devices:
+  00:00:00:00:00:01:
+    cmd: "echo \"/scripts/vmControl.sh 'VM Name' start\" > /config/fifo"
+  00:00:00:00:00:99:
+    cmd: "echo \"echo 'This is a test'\" > /config/fifo"

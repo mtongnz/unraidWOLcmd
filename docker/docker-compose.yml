@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  wol_receive:
+    container_name: wol_receive
+    build: .
+    volumes:
+      - /mnt/user/dockers/wolReceive/data/:/logs
+      - /mnt/user/appdata/wolReceive/:/config
+    ports:
+      - 9:9/udp
+
+# needs fifo (mkfifo /fifo)
+# neeeds userscript to exec command in fifo
