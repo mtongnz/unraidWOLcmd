@@ -50,9 +50,8 @@ vmControl is a script to start & stop virtual machines on unRaid.  It works well
 
 To setup...  
 1. copy vmControl.sh somewhere (I chose /scripts/ but read below about reboot persistance)
-2. run these commands to change the owner & make it executable  
-`chown nobody:users vmControl.sh  
-chmod +x vmControl.sh`
+2. run this command to change the owner & make it executable  
+`chown nobody:users vmControl.sh && chmod +x vmControl.sh`
 
 vmControl is now installed.  You can run it via the terminal:  
 `/scripts/vmControl.sh 'vmName here' start|stop`
