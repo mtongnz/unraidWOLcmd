@@ -17,7 +17,7 @@ Copy the config.yaml into your config dir and configure port (should be 9) and t
 
 A FIFO must be configured in the docker's config dir.  It allows the docker to write commands into a FIFO buffer that the User Script then reads.
 
-Run this command from the docker's config directory (probably /mnt/users/appdata/wolReceive/).  
+Run this command from the docker's config directory (probably /mnt/user/appdata/wolReceive/).  
 `mkfifo /fifo`
 
 
